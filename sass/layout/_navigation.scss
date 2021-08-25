@@ -1,4 +1,12 @@
 .navigation{
+    
+    &__list{
+        display: none;
+    }
+}
+
+
+/* .navigation{
     display:flex;
 
     &__list{
@@ -43,4 +51,4 @@ position: relative;
     }
 }
 
-
+*/

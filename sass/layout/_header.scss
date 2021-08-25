@@ -1,3 +1,14 @@
+.header{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.contact{
+    display:none;
+}
+
+
+/*
 //reguły dla listy z formami kontaktu //
 .contact{
     display: flex;
@@ -26,3 +37,4 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         fill:var(--secondary-color);
     }
 }
+*/
