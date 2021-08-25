@@ -8,10 +8,10 @@
 @media screen and (min-width:768px){
     .navigation{
     display:flex;
+    align-items: center;
 
     &__list{
     display:flex;
-    align-items: center;
     column-gap: 60px;
         }
     }
@@ -44,9 +44,8 @@ position: relative;
         height: 4px;
         background-color: var(--secondary-color);
         position: absolute;
-        top:44px;
+        top:46px;
         border-radius: 2px;
-        left:2px;
         }
     }
 }
