@@ -19,8 +19,10 @@
 
     .contact{
     display: flex;
-    align-items: center;
-    column-gap: 50px;
+    flex-direction: column;
+    
+    &__item:first-child{
+        padding-bottom: 10px;
     }
 
     // reguły dla ikon w headerze //
@@ -42,6 +44,7 @@
     &:hover,&:focus{
         color:var(--secondary-color);
         fill:var(--secondary-color);
+            }
         }
     }
 }

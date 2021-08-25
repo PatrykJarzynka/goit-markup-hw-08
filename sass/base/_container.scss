@@ -21,6 +21,12 @@
         max-width: 768px;
         padding: 0 15px;
         margin: 0 auto;
+
+    &--header{
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ECECEC;
+        }
     }
 }
 
@@ -29,9 +35,8 @@
         max-width: 1200px;
         padding: 0 215px;
         margin: 0 auto;
+        }
     }
-}
-
 
 /* .container{
     max-width: 1200px;
