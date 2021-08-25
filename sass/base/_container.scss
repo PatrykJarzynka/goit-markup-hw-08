@@ -1,0 +1,23 @@
+.container{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+    &--header{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ECECEC;
+    }
+
+    &--hero-up{
+    padding-bottom:200px;
+    }
+    
+    &--footer{
+    display: flex;
+    }
+
+}
+
