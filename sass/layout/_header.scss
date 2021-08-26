@@ -74,6 +74,10 @@ display: flex;
 flex-direction: row;
 align-items: center;
 column-gap: 30px;
+
+    &__item:first-child{
+        padding-bottom: 0px;
+    }
 }
 
 // reguły dla ikon w headerze //
