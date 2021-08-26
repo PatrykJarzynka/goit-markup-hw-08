@@ -1135,6 +1135,17 @@ border-radius: 0px 0px 4px 4px;
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .clients-container {
+    min-width: 170px;
+  }
+  .clients {
+    display: flex;
+    flex-wrap: initial;
+    justify-content: space-between;
+  }
+}
+
 /*
 
 // reguły dla kontenera //
