@@ -1,3 +1,5 @@
+// --------------------------- MOBILE ------------------------------ //
+
 .container{
     width: 100%;
     padding: 0 15px;
@@ -16,6 +18,8 @@
     }
 }
 
+// --------------------------- TABLET ------------------------------ //
+
 @media screen and (min-width: 768px){
     .container{
         max-width: 768px;
@@ -33,11 +37,17 @@
     }
 }
 
+// --------------------------- DESKTOP ------------------------------ //
+
 @media screen and (min-width: 1200px){
     .container{
         max-width: 1200px;
         padding: 0 215px;
         margin: 0 auto;
+
+     &--hero-up{
+        padding-bottom:200px;
+            }
         }
     }
 

@@ -1,3 +1,5 @@
+// --------------------------- MOBILE ------------------------------ //
+
 .section{
 padding: 60px 0;
 width: 100%;
@@ -26,6 +28,8 @@ margin-right: auto;
         }
     }
 
+// --------------------------- TABLET ------------------------------ //
+
     @media screen and (min-width:768px){
     &--hero-up{
     background-image: linear-gradient(
@@ -46,9 +50,19 @@ margin-right: auto;
             }
         }
     }
+}
+
+// --------------------------- DESKTOP ------------------------------ //
 
     @media screen and (min-width: 1200px){
+    .section{
+    padding: 94px 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
     &--hero-up{
+    padding-top: 0;
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
