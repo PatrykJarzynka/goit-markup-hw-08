@@ -248,10 +248,17 @@ color:var(--secondary-color);
 }*/
 .secondary-header {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 28px;
   letter-spacing: 0.03em;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .secondary-header {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
 }
 
 .social-link {
@@ -1084,42 +1091,51 @@ border-radius: 0px 0px 4px 4px;
     }
 }
 */
-.clients-container {
-  width: 170px;
-  height: 92px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #AFB1B8;
-  border-radius: 4px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition-property: border-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+/*
+
+// reguły dla kontenera //
+
+.clients-container{
+    width:170px;
+    height:92px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #AFB1B8;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: border-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, &:focus{
+    border-color: var(--secondary-color);
+    cursor: pointer;
+
+        .clients-container__logo{
+            fill:var(--secondary-color);
+        }
+    }
 }
 
-.clients-container:hover, .clients-container:focus {
-  border-color: var(--secondary-color);
-  cursor: pointer;
+//reguły dla listy //
+
+.clients{
+    display: flex;
+    justify-content: space-between;
 }
 
-.clients-container:hover .clients-container__logo, .clients-container:focus .clients-container__logo {
-  fill: var(--secondary-color);
+//reguły dla loga klientów //
+
+.clients-container__logo{
+    fill:#AFB1B8;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients {
-  display: flex;
-  justify-content: space-between;
-}
-
-.clients-container__logo {
-  fill: #AFB1B8;
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
+*/
 .filters {
   display: flex;
   margin-left: 295px;
