@@ -17,6 +17,10 @@ margin-right: auto;
     padding-bottom: 0;
     }
 
+    &--about{
+    display:none;
+    }
+
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -80,6 +84,10 @@ margin-right: auto;
          url('../images/hero/hero-bg-dekstop@2x.jpg');
             }
         }
+
+    &--about{
+    display: initial;
+    }
     }
 }
     /*

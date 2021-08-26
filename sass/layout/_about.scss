@@ -1,15 +1,7 @@
-// --------------------------- MOBILE,TABLET------------------------------ //
-
-.section--about{
-    display: none;
-}
 
 // --------------------------- DESKTOP ------------------------------ //
 
 @media screen and (min-width: 1200px){
-    .section--about{
-        display: initial;
-    }
 
     .about__item{
         position: relative;
