@@ -44,6 +44,7 @@ p {
 
 .container {
   width: 100%;
+  padding: 0 15px;
 }
 
 .container--hero-up {
@@ -53,7 +54,6 @@ p {
 @media screen and (min-width: 480px) {
   .container {
     max-width: 480px;
-    padding: 0 15px;
     margin: 0 auto;
   }
   .container--hero-up {
@@ -140,9 +140,6 @@ p {
 @media screen and (min-width: 1200px) {
   .section {
     padding: 94px 0;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
   }
   .section--hero-up {
     padding-top: 0;
@@ -909,31 +906,72 @@ margin-top: 10px;
 }
 
 */
-.about-info {
-  height: 70px;
-  background: rgba(47, 48, 58, 0.8);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  bottom: 98px;
-  width: 370px;
+.section--about {
+  display: none;
 }
 
-.about-info__text {
-  font-weight: 700;
-  font-size: 14px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--third-color);
+@media screen and (min-width: 1200px) {
+  .section--about {
+    display: initial;
+  }
+  .about__item {
+    position: relative;
+  }
+  .about-info {
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    width: 370px;
+  }
+  .about-info__text {
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--third-color);
+  }
+  .about {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
-.about {
-  display: flex;
-  justify-content: space-between;
+/*
+
+//reguły dla tekstu //
+
+.about-info{
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 98px;
+    width:370px;
+
+    &__text{
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--third-color);
+    }
 }
 
+//reguły dla listy //
+
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+*/
 .employees {
   display: flex;
   column-gap: 30px;
