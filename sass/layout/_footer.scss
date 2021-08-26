@@ -1,3 +1,47 @@
+// --------------------------- MOBILE ------------------------------ //
+
+.footer-address{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+//reguły dla adresu w stopce //
+
+.footer-address__link{
+font-style: normal;
+font-size: 14px;
+letter-spacing: 0.03em;
+text-decoration: none;
+color:var(--third-color);
+}
+
+//reguły dla form kontanktu w stopce //
+
+.footer-address__contact{
+    color:var(--footer-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+
+    &:hover,&:focus{
+    color:var(--secondary-color);
+    fill:var(--secondary-color);
+    }
+}
+
+
+/*
 //reguły dla adresu w stopce //
 .footer-address__link{
 font-style: normal;
@@ -86,3 +130,4 @@ color:var(--third-color);
     color: var(--third-color);
     padding: 13px 26px 13px 42px;
 }
+*/
