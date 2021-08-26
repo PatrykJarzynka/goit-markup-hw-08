@@ -2,7 +2,6 @@
 
 .container{
     width: 100%;
-    padding: 0 15px;
 }
 
 
@@ -23,16 +22,10 @@
 @media screen and (min-width: 768px){
     .container{
         max-width: 768px;
-        padding: 0 15px;
-        margin: 0 auto;
 
     &--header{
     display:flex;
     justify-content: space-between;
-        }
-
-    &--hero-up{
-        padding-bottom:118px;
         }
     }
 }
@@ -42,8 +35,6 @@
 @media screen and (min-width: 1200px){
     .container{
         max-width: 1200px;
-        padding: 0 15px;
-        margin: 0 auto;
 
      &--hero-up{
         padding-bottom:200px;

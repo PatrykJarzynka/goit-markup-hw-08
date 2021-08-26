@@ -84,10 +84,6 @@ margin-bottom: 30px;
 
     .hero-down__header{
     display: inline;
-    font-weight: 700;
-    font-size: 14px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     text-align: left;
     }
 
@@ -95,11 +91,6 @@ margin-bottom: 30px;
 
     .hero-down__icon-container{
     width:354px;
-    background-color:#F5F4FA;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 4px;
     }
 
     // reguły dla listy //
@@ -114,13 +105,7 @@ margin-bottom: 30px;
     // reguły dla opisu //
 
     .hero-down__description{
-    font-size: 14px;
-    line-height: 1.714;
-    letter-spacing: 0.03em;
-    color:var(--forth-color);
     width: 354px;
-    margin-top: 10px;
-    margin-bottom: 30px;
 
         &--tablet{
         margin-bottom: 0;

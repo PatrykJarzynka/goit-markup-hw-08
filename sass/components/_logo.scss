@@ -27,16 +27,7 @@ color:var(--secondary-color);
 @media screen and (min-width:1200px){
 
     .logo{
-    font-family: var(--secondary-font);
-    font-weight: 700;
     font-size: 26px;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    color:var(--secondary-color);
-
-        &--dark{
-        color:var(--main-color);
-        }
 
         &--space{
         margin-right: 93px;

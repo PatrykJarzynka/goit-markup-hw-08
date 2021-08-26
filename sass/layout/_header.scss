@@ -18,7 +18,6 @@
     .header{
     padding-top: 18px;
     padding-bottom: 18px;
-    border-bottom: 1px solid #ECECEC;
     }
 
 //reguły dla listy z formami kontaktu //
@@ -70,7 +69,6 @@
 //reguły dla listy z formami kontaktu //
 
 .contact{
-display: flex;
 flex-direction: row;
 align-items: center;
 column-gap: 30px;
@@ -87,14 +85,7 @@ column-gap: 30px;
 
 //reguły dla linków w headerze //
 .contact__link{
-font-weight: 500;
 font-size: 14px;
-letter-spacing: 0.02em;
-color:var(--forth-color);
-text-decoration: none;
-transition-property: color, fill;
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
     &:hover,&:focus{
         color:var(--secondary-color);
