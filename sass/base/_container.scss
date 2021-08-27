@@ -31,10 +31,6 @@
     display:flex;
     justify-content: space-between;
         }
-
-    &--footer{
-    position: relative;;
-        }
     }
 }
 
@@ -47,6 +43,10 @@
      &--hero-up{
         padding-bottom:200px;
             }
+
+    &--footer{
+    display: flex;
+    }
         }
     }
 

@@ -94,30 +94,85 @@ color:var(--third-color);
 @media screen and (min-width: 768px){
 
 .footer-address{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     position: absolute;
     left: 76px;
-
-    &__list{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        }
     }
 
 // reguły dla listy mediów społecznościowych //
 
 .footer-social{
-    margin-left: 70px;
-    padding-top: 12px;
+    padding-top: 0;
     position: absolute;
     right: 119px;
+}
+
+.footer-form{
+    display: flex;
+    justify-content: center;
+}
+
+
+//reguły dla imputa //
+
+.footer-imput{
+    width: 450px;
+}
+
+}
+
+// --------------------------- DESKTOP ------------------------------ //
+
+@media screen and (min-width: 1200px){
+
+.footer-address{
+    position: relative;
+    left: 0;
+    display: inline-block;
 
     &__list{
-    display: flex;
+        display: inline-block;
+        }
     }
+
+// modyfikatory dla elementów listy z adresami //
+
+.footer-address__item{
+    margin-top: 9px;
+
+    &--postition{
+    margin-top: 20px;
+    }
+}
+
+// reguły dla listy mediów społecznościowych //
+.footer-social{
+    position: initial;
+    display: inline-block;
+    padding-left: 70px;
+}
+
+.form-container{
+    padding-top: 0;
+}
+
+//reguły dla imputa //
+
+.footer-imput{
+    margin-left: 78px;
+    width: 358px;
+}
+
+// reguły dla wrappera trzymajacego wszystko związane z formularzami //
+.footer-wrapper{
+    position: relative;
+}
+
+// reguł dla przycisku w footerze //
+.modal-button-footer{
+    position: absolute;
+    margin-top: 0;
+    right:-210px;
+    top: 36px;
 }
 
 }

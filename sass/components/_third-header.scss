@@ -19,8 +19,35 @@ color:var(--third-color);
     }
 }
 
+// --------------------------- TABLET ------------------------------ //
 
+@media screen and (min-width: 768px){
+    .third-header{
 
+    &--form{
+    margin-top: 118px;
+    }
+
+    }
+}
+
+// --------------------------- DESKTOP ------------------------------ //
+
+@media screen and (min-width: 1200px){
+    .third-header{
+
+    &--footer{
+    display: inline-block;
+
+    }
+
+    &--form{
+    margin-top: 0;
+    justify-content: flex-start;
+    padding-left: 78px;
+    }
+}
+}
 
 /*
 .third-header{
