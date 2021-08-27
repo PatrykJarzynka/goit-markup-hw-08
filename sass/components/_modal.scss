@@ -104,13 +104,10 @@
         &:focus{
         outline:none;
         border-color: var(--secondary-color);
-
-                .modal__label{
-                    color:var(--secondary-color);
-                }
         }
 
     }
+
 
     &__icon{
     position: absolute;
@@ -213,6 +210,33 @@
 
 }
 
+// --------------------------- DESKTOP ------------------------------ //
+
+@media screen and (min-width:1200px){
+
+    .modal{
+    min-width: 528px;
+
+    &__header{
+    max-width: 448px;
+    }
+
+    &__close-btn:focus,
+    &__close-btn:hover{
+        fill: initial;
+    }
+}
+
+.user-policy-message{
+    font-size: 14px;
+    margin-left: 15px;
+
+    &::before{
+        margin-right: 8px;
+    }
+
+}
+}
 
 
 /*.is-hidden{

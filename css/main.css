@@ -429,10 +429,6 @@ color:var(--secondary-color);
   border-color: var(--secondary-color);
 }
 
-.modal-input-wrapper__input:focus .modal__label {
-  color: var(--secondary-color);
-}
-
 .modal-input-wrapper__icon {
   position: absolute;
   top: 14px;
@@ -513,6 +509,25 @@ color:var(--secondary-color);
 @media screen and (min-width: 768px) {
   .modal__label:first-child {
     color: var(--forth-color);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .modal {
+    min-width: 528px;
+  }
+  .modal__header {
+    max-width: 448px;
+  }
+  .modal__close-btn:focus, .modal__close-btn:hover {
+    fill: initial;
+  }
+  .user-policy-message {
+    font-size: 14px;
+    margin-left: 15px;
+  }
+  .user-policy-message::before {
+    margin-right: 8px;
   }
 }
 
