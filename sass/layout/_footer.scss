@@ -82,12 +82,47 @@ color:var(--third-color);
 
 // reguł dla przycisku w footerze //
 .modal-button-footer{
-    
+
     margin-top: 20px;
     display: flex;
     align-items: center;
     padding: 13px 26px 13px 42px;
 }
+
+// --------------------------- TABLET ------------------------------ //
+
+@media screen and (min-width: 768px){
+
+.footer-address{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 76px;
+
+    &__list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+    }
+
+// reguły dla listy mediów społecznościowych //
+
+.footer-social{
+    margin-left: 70px;
+    padding-top: 12px;
+    position: absolute;
+    right: 119px;
+
+    &__list{
+    display: flex;
+    }
+}
+
+}
+
+
 
 
 /*
