@@ -24,7 +24,7 @@
     line-height: 1.555;
     letter-spacing: 0.03em;
     color: var(--third-color);
-    width: 402px;
+    max-width: 402px;
     }
 }
 
@@ -76,8 +76,21 @@
 
 @media screen and (min-width:768px){
 
-    
+//reguł dla ściemnienia ekranu gdy pojawia się okno modalne //
+.overlay{
 
+    &__text{
+    max-width: 306px;
+    }
+}
+
+.offer{
+
+    &__header{
+    max-width: 306px;
+    }
+
+}
 }
 
 
