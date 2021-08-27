@@ -1,4 +1,53 @@
+// --------------------------- MOBILE ------------------------------ //
 .is-hidden{
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+// główne okno //
+
+.modal{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: var(--third-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    min-width: 450px;
+    transition: transform 1s ease-out;
+    padding: 40px;
+
+    .is-hidden &{
+     transform: translate(-200%,-200%);
+    }
+
+    &__close-btn{
+    display: inline-block;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background-color: var(--third-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    padding: 9px 9px 10px 10px;
+    line-height: 0;
+    border-radius: 50%;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover, &:focus{
+        fill:var(--secondary-color);
+        }
+    }
+}
+
+
+
+
+/*.is-hidden{
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -184,3 +233,4 @@
     background-image: url("../images/icon-check.svg");
     }
 }
+*/
