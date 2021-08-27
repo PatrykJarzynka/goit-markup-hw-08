@@ -116,7 +116,7 @@ p {
 .section--hero-up {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/hero-bg-mobile.jpg");
   background-repeat: no-repeat;
-  background-size: 480px 400px;
+  background-size: cover;
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -144,7 +144,7 @@ p {
 @media screen and (min-width: 768px) {
   .section--hero-up {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/hero-bg-tablet.jpg");
-    background-size: 768px 400px;
+    background-size: cover;
   }
 }
 
@@ -162,7 +162,7 @@ p {
     padding-top: 0;
     padding-bottom: 0;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/hero-bg-desktop.jpg");
-    background-size: 1600px 600px;
+    background-size: cover;
   }
 }
 
