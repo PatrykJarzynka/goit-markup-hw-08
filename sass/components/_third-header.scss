@@ -1,3 +1,28 @@
+// --------------------------- MOBILE ------------------------------ //
+.third-header{
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color:var(--third-color);
+
+&--footer{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    }
+
+&--form{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    }
+}
+
+
+
+
+/*
 .third-header{
 font-weight: 700;
 font-size: 14px;
@@ -15,3 +40,4 @@ color:var(--third-color);
     padding-bottom: 20px;
     }
 }
+*/
