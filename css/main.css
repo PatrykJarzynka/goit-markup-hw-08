@@ -419,7 +419,7 @@ color:var(--secondary-color);
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   padding-left: 42px;
-  transition-property: border-color;
+  transition-property: border-color,color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -427,6 +427,10 @@ color:var(--secondary-color);
 .modal-input-wrapper__input:focus {
   outline: none;
   border-color: var(--secondary-color);
+}
+
+.modal-input-wrapper__input:focus .modal__label {
+  color: var(--secondary-color);
 }
 
 .modal-input-wrapper__icon {
@@ -449,6 +453,9 @@ color:var(--secondary-color);
   color: var(--forth-color);
   margin-bottom: 4px;
   margin-top: 10px;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal__label:first-child {
@@ -501,6 +508,12 @@ color:var(--secondary-color);
   background-repeat: no-repeat;
   background-position: center;
   background-image: url("../images/icon-check.svg");
+}
+
+@media screen and (min-width: 768px) {
+  .modal__label:first-child {
+    color: var(--forth-color);
+  }
 }
 
 /*.is-hidden{
