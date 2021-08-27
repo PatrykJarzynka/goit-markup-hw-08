@@ -12,6 +12,10 @@ color:var(--secondary-color);
     color:var(--main-color);
     }
 
+    &--light{
+    color:var(--third-color);
+    }
+
 // --------------------------- TABLET ------------------------------ //
 
 @media screen and (min-width:768px){

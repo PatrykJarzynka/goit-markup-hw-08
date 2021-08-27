@@ -216,6 +216,10 @@ p {
   color: var(--main-color);
 }
 
+.logo--light {
+  color: var(--third-color);
+}
+
 @media screen and (min-width: 768px) {
   .logo--space {
     margin-right: 83px;
@@ -1331,6 +1335,14 @@ border-radius: 0px 0px 4px 4px;
 .footer-address__contact:hover, .footer-address__contact:focus {
   color: var(--secondary-color);
   fill: var(--secondary-color);
+}
+
+.footer-address__item {
+  margin-top: 8px;
+}
+
+.footer-address__item--postition {
+  margin-top: 20px;
 }
 
 /*
