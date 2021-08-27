@@ -66,7 +66,15 @@
             <ul class="offer list">
                 <li class="offer__item">
                     <div class="offer__container">
-                        <img class="offer__img" src="images/Portfolio-images/img1.jpg" alt="Strona internetowa wyświetlana na laptopie." width=370 height=294>
+                        <picture>
+                            <source srcset="./images/Portfolio-images/offer-mobile/porfolio-img-mobile-01.webp 1x, ./images/Portfolio-images/offer-mobile/porfolio-img-mobile-01@2x.webp 2x"
+                            media="(min-width: 480px)" type="images/webp">
+
+                            <source srcset="./images/Portfolio-images/offer-mobile/porfolio-img-mobile-01.jpg 1x, ./images/Portfolio-images/offer-mobile/porfolio-img-mobile-01@2x.jpg 2x"
+                            media="(min-width: 480px)">
+
+                            <img class="offer__img" src="./images/Portfolio-images/offer-mobile/porfolio-img-mobile-01.jpg" alt="Strona internetowa wyświetlana na laptopie.">
+                        </picture>
                         <div class="overlay">
                             <p class="overlay__text">Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji</p>
                         </div>
