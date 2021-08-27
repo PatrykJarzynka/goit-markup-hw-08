@@ -33,6 +33,7 @@
     flex-wrap:wrap;
     margin-top:-80px;
     column-gap:30px;
+    row-gap: 30px;
 
     &__container{
     position: relative;
@@ -60,7 +61,6 @@
 }
 
 .offer__item{
-    margin-bottom: 30px;
     border-bottom: 1px solid #EEEEEE;
     transition-property: box-shadow;
     transition-duration: 250ms;
@@ -93,6 +93,19 @@
 }
 }
 
+// --------------------------- DESKTOP ------------------------------ //
+
+@media screen and (min-width:1200px){
+
+    .offer{
+
+    &__header{
+    max-width: 370px;
+    }
+
+}
+
+}
 
 /*
 //reguł dla ściemnienia ekranu gdy pojawia się okno modalne //

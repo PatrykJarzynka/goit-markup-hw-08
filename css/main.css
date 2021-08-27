@@ -1585,6 +1585,7 @@ background-color: #F5F4FA;
   flex-wrap: wrap;
   margin-top: -80px;
   column-gap: 30px;
+  row-gap: 30px;
 }
 
 .offer__container {
@@ -1612,7 +1613,6 @@ background-color: #F5F4FA;
 }
 
 .offer__item {
-  margin-bottom: 30px;
   border-bottom: 1px solid #EEEEEE;
   transition-property: box-shadow;
   transition-duration: 250ms;
@@ -1630,6 +1630,12 @@ background-color: #F5F4FA;
   }
   .offer__header {
     max-width: 306px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .offer__header {
+    max-width: 370px;
   }
 }
 
