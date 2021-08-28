@@ -10,7 +10,7 @@
 }
 
 
-@media screen and (min-width: 480px){
+@media screen and (min-width: 480px) and (max-width: 767px){
     .container{
         max-width: 480px;
         margin: 0 auto;
@@ -23,7 +23,7 @@
 
 // --------------------------- TABLET ------------------------------ //
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 1999px){
     .container{
         max-width: 768px;
 

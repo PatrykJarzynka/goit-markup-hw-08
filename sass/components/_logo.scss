@@ -18,7 +18,7 @@ color:var(--secondary-color);
 
 // --------------------------- TABLET ------------------------------ //
 
-@media screen and (min-width:768px){
+@media screen and (min-width:768px) and (max-width: 1999px){
      &--space{
         margin-right: 83px;
         }

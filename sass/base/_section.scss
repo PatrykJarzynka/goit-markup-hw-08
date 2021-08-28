@@ -44,7 +44,7 @@ margin-right: auto;
 
 // --------------------------- TABLET ------------------------------ //
 
-    @media screen and (min-width:768px){
+    @media screen and (min-width:768px) and (max-width: 1999px){
     &--hero-up{
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),

@@ -6,9 +6,9 @@
   }
 }
 
-// --------------------------- DESKTOP ------------------------------ //
+// --------------------------- TABLET ------------------------------ //
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1999px){
   .navigation {
     display: flex;
     align-items: center;
