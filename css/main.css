@@ -741,7 +741,7 @@ color:var(--secondary-color);
 }
 
 .is-hidden .mobile {
-  transform: translate(-200%, -200%);
+  scale: 0.7;
 }
 
 .mobile__close-btn {
