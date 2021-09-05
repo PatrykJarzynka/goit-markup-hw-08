@@ -764,12 +764,38 @@ color:var(--secondary-color);
 
 .mobile__link {
   text-decoration: none;
-  font-style: normal;
   font-weight: 500;
   font-size: 40px;
   letter-spacing: 0.02em;
   padding-bottom: 36px;
   display: inline-block;
+  color: var(--main-color);
+}
+
+.mobile__link--current {
+  color: var(--secondary-color);
+}
+
+.mobile-contact__link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 34px;
+  letter-spacing: 0.02em;
+}
+
+.mobile-social {
+  display: flex;
+}
+
+.mobile-social__link {
+  text-decoration: none;
+}
+
+.mobile-social__link::after {
+  content: "";
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .third-header {
