@@ -810,11 +810,16 @@ color:var(--secondary-color);
   letter-spacing: 0.02em;
 }
 
-.mobile-social__link::after {
+.mobile-social__item::after {
   content: "";
   border: 1px solid rgba(33, 33, 33, 0.2);
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.mobile-social__item:last-child::after {
+  content: "";
+  border: 0px solid rgba(33, 33, 33, 0.2);
 }
 
 .third-header {
