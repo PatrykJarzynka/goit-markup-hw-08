@@ -735,6 +735,9 @@ color:var(--secondary-color);
   padding: 48px 40px;
   width: 100%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .is-hidden .mobile {
@@ -771,10 +774,6 @@ color:var(--secondary-color);
 
 .mobile__link--current {
   color: var(--secondary-color);
-}
-
-.mobile-contact {
-  margin-top: 266px;
 }
 
 .mobile-contact__link {
@@ -1117,14 +1116,14 @@ position: relative;
 .menu-wrap__hamburger > div:after {
   content: '';
   position: absolute;
-  top: -4px;
+  top: -6px;
   width: 100%;
   height: 2.5px;
   background-color: inherit;
 }
 
 .menu-wrap__hamburger > div:after {
-  top: 4px;
+  top: 6px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1999px) {
