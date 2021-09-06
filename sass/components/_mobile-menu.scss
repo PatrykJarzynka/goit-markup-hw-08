@@ -73,6 +73,7 @@
 .mobile-social{
     display: flex;
     margin-top: 32px;
+    flex-wrap:wrap;
 
     &__link{
     text-decoration: none;

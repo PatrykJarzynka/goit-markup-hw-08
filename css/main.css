@@ -794,6 +794,7 @@ color:var(--secondary-color);
 .mobile-social {
   display: flex;
   margin-top: 32px;
+  flex-wrap: wrap;
 }
 
 .mobile-social__link {
