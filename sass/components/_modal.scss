@@ -18,7 +18,7 @@
     width:100%;
     max-width: 528px;
     transition: transform 1s ease-out;
-    padding: 40px;
+    padding: 20px;
 
     .is-hidden &{
      transform: translate(-200%,-200%);
@@ -37,6 +37,7 @@
     border-radius: 50%;
     transition-property: fill;
     transition-duration: 250ms;
+    z-index: 2;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
         &:hover, &:focus{
@@ -51,7 +52,7 @@
     font-weight: 700;
     font-size: 20px;
     text-align: center;
-    line-height: 30px;
+    line-height: 25px;
     letter-spacing: 0.03em;
     }
 
