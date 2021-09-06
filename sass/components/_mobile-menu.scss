@@ -4,7 +4,6 @@
     background-color: var(--third-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
-    min-width: 450px;
     transition: transform 1s ease-out;
     padding: 48px 40px;
     width: 100%;
@@ -49,8 +48,7 @@
 }
 
 .mobile-contact{
-    position: absolute;
-    bottom: 134px;
+    margin-top: 266px;
 
     &__link{
     text-decoration: none;
@@ -72,8 +70,7 @@
 
 .mobile-social{
     display: flex;
-    position: absolute;
-    bottom: 48px;
+    margin-top: 32px;
 
     &__link{
     text-decoration: none;
