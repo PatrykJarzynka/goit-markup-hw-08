@@ -73,7 +73,7 @@
     font-weight: 700;
     font-size: 16px;
     letter-spacing: 0.06em;
-    padding:16px 76px;
+    padding:16px 65px;
 
         // ikona dla przycisku w footerze //
         &__icon{
@@ -200,9 +200,35 @@
 
 @media screen and (min-width:768px) and (max-width: 1999px){
 
-// reguła dla opisu inputa //
+.modal{
+    padding: 40px;
 
-.modal__label{
+    &__header{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 370px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    }
+
+    &-button{
+    background-color: var(--secondary-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    color:var(--third-color);
+    border: none;
+    padding:0;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    padding:16px 76px;
+
+    &__label{
 
     &:first-child{
     color: var(--forth-color);
@@ -210,6 +236,9 @@
     }
 }
 
+}
+
+}
 }
 
 // --------------------------- DESKTOP ------------------------------ //
